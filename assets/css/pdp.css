@@ -1,0 +1,62 @@
+.empatkali-pdp-paragraph .label span {
+  display: block;
+  margin-bottom: 2px;
+}
+.empatkali-pdp-paragraph .label img {
+  height: 35px !important;
+  margin: 0 5px;
+}
+.empatkali-pdp-paragraph a.more-info {
+  text-align: right;
+  font-weight: 500;
+  font-size: .75em;
+}
+.empatkali-product-snippet-modal {
+  display: none;
+  position: fixed;
+  top: 50%; left: 50%; z-index: 99999 !important;
+  width: 100%; height: 100%;
+  z-index: 99;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, .7);
+  transform: translate(-50%, -50%);
+}
+.empatkali-product-snippet-modal > div {
+  position: relative;
+  background: #fff;
+  width: 850px; height: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.empatkali-product-snippet-modal > div .close-button {
+  position: absolute;
+  top: 0; right: 0;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  border: 0;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+  color: #fff;
+}
+.empatkali-product-snippet-modal iframe {
+   /*style="border: 1px solid transparent; width: 100%;height: 100vh"/*/
+}
+
+@media screen and (max-device-width: 480px) {
+  .empatkali-product-snippet-modal > div {
+    width: calc(100% - 4rem);
+    margin: 2rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px){}
+@media screen and (min-width: 768px) and (max-width: 1024px){}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){}
+@media screen and (max-width: 767px){}
+@media screen and (max-width: 767px) and (orientation: landscape){}
+@media screen and (max-width: 767px) and (orientation: portrait){}
